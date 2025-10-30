@@ -1,13 +1,13 @@
 import React from "react";
 
-function Home() {
+function PageNotFound() {
   return (
     <>
       <div>
-        <h3>Home Page</h3>
+        <h3>Page Not Found</h3>
       </div>
     </>
   );
 }
 
-export default Home;
+export default PageNotFound;

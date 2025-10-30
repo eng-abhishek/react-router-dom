@@ -1,13 +1,16 @@
 import React from "react";
-
-function Contact(){
-
-    return(<>
-    <div>
+import { useNavigate } from "react-router-dom";
+function Contact() {
+  const navigateTo = useNavigate();
+  return (
+    <>
+      <div>
         <h3>Contact Page</h3>
-    </div>
-    </>);
-    
+        <br></br>
+        <button onClick={() => navigateTo(-1)}>Go To One Step Back..</button>
+      </div>
+    </>
+  );
 }
 
 export default Contact;
