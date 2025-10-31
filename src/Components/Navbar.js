@@ -31,6 +31,7 @@ function Navbar() {
         <NavLink to="/contact" style={NavLinkCSS}>
           Contact
         </NavLink>
+        <NavLink to="/products" style={NavLinkCSS}>Products</NavLink>
       </nav>
     </>
   );

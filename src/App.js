@@ -6,6 +6,12 @@ import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import PageNotFound from "./Components/PageNotFound";
+import Products from "./Components/Products";
+import Shirt from "./Components/Shirt";
+import Jeans from "./Components/Jeans";
+import UserDetail from "./Components/UserDetail";
+import Admin from "./Components/Admin";
+import Search from "./Components/Search";
 
 function App() {
   const navigator = useNavigate();
@@ -30,6 +36,14 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/products" element={<Products/>}>
+            <Route index element={<Shirt/>}/>
+            <Route path="shirt" element={<Shirt/>} />
+            <Route path="jeans" element={<Jeans/>} />
+        </Route>
+        <Route path="/users/:id" element={<UserDetail/>}></Route>
+        <Route path="/users/admin" element={<Admin/>}></Route>
+        <Route path="/search" element={<Search/>}></Route>
       </Routes>
 
       {/*  How to add button click rediraction  */}
