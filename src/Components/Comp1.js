@@ -1,12 +1,13 @@
 import React from "react";
 
-function Comp1(){
-
-    return(<>
-    <div>
+function Comp1() {
+  return (
+    <>
+      <div>
         <h3>Comp1 Page</h3>
-    </div>
-    </>);
+      </div>
+    </>
+  );
 }
 
 export default Comp1;

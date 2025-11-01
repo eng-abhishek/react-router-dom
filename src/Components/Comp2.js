@@ -1,13 +1,173 @@
 import React from "react";
 
-function Comp2(){
-
-    return(<>
-    <div>
-        <h3>Comp2 Page</h3>
-    </div>
-    </>);
-    
+function Comp2() {
+  return (
+    <>
+      <div>
+        <h1>Comp2 Page</h1>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+        <h3>This is component 2 </h3>
+      </div>
+    </>
+  );
 }
 
 export default Comp2;

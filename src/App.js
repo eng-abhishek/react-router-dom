@@ -12,6 +12,7 @@ import Jeans from "./Components/Jeans";
 import UserDetail from "./Components/UserDetail";
 import Admin from "./Components/Admin";
 import Search from "./Components/Search";
+import LazyLoading from "./Components/LazyLoading";
 
 function App() {
   const navigator = useNavigate();
@@ -36,17 +37,18 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="/products" element={<Products/>}>
-            <Route index element={<Shirt/>}/>
-            <Route path="shirt" element={<Shirt/>} />
-            <Route path="jeans" element={<Jeans/>} />
+        <Route path="/products" element={<Products />}>
+          <Route index element={<Shirt />} />
+          <Route path="shirt" element={<Shirt />} />
+          <Route path="jeans" element={<Jeans />} />
         </Route>
 
-        <Route path="products/jeans" element={<Jeans/>} />
+        <Route path="products/jeans" element={<Jeans />} />
 
-        <Route path="/users/:id" element={<UserDetail/>}></Route>
-        <Route path="/users/admin" element={<Admin/>}></Route>
-        <Route path="/search" element={<Search/>}></Route>
+        <Route path="/users/:id" element={<UserDetail />}></Route>
+        <Route path="/users/admin" element={<Admin />}></Route>
+        <Route path="/search" element={<Search />}></Route>
+        <Route path="/lazy-loading" element={<LazyLoading />}></Route>
       </Routes>
 
       {/*  How to add button click rediraction  */}
