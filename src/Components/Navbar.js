@@ -37,6 +37,7 @@ function Navbar() {
         <NavLink to="/lazy-loading" style={NavLinkCSS}>
           Lazy Loading
         </NavLink>
+        <NavLink to="/form-validation" style={NavLinkCSS}>Form Validation</NavLink>
       </nav>
     </>
   );

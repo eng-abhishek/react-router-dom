@@ -13,6 +13,7 @@ import UserDetail from "./Components/UserDetail";
 import Admin from "./Components/Admin";
 import Search from "./Components/Search";
 import LazyLoading from "./Components/LazyLoading";
+import FormValidation from "./Components/FormValidation";
 
 function App() {
   const navigator = useNavigate();
@@ -49,6 +50,7 @@ function App() {
         <Route path="/users/admin" element={<Admin />}></Route>
         <Route path="/search" element={<Search />}></Route>
         <Route path="/lazy-loading" element={<LazyLoading />}></Route>
+        <Route path="/form-validation" element={<FormValidation/>}/>
       </Routes>
 
       {/*  How to add button click rediraction  */}
